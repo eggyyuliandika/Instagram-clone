@@ -1,0 +1,337 @@
+.button-icon {
+  border-radius: 6px;
+  padding: 5px;
+  background: transparent;
+  transition: 0, 25;
+  cursor: pointer;
+  border: none;
+}
+
+.button-icon:hover {
+  background: #eaeaea;
+}
+
+.icon {
+  display: flex;
+  width: 20px;
+}
+
+.nav {
+  background-color: white;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 20px;
+  width: 334px;
+}
+
+.hero {
+  background: linear-gradient(to right, red, purple);
+  padding: 2px;
+  width: 56px;
+  height: 56px;
+  border-radius: 100%;
+}
+
+.flex-container {
+  display: flex;
+  background-color: transparent;
+}
+
+.flex-container > div {
+  background-color: transparent;
+  color: white;
+  width: 300px;
+  margin: 10px;
+  text-align: center;
+  font-size: 4px;
+}
+
+.description1 {
+  padding: 6px;
+  display: flex;
+  font-size: 14px;
+  color: black;
+  margin: 0;
+}
+
+.comment {
+  font-weight: normal;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Popins", sans-serif;
+  margin-bottom: 14px;
+}
+
+img.profile1 {
+  display: flex;
+  justify-content: space-between;
+  text-align: justify;
+  width: 32px;
+  height: 32px;
+  border-radius: 100%;
+}
+
+.flex-profile {
+  background-color: transparent;
+  font-size: 6px;
+  margin: 6px;
+  padding: 6px;
+}
+
+.feed1 {
+  width: 100%;
+}
+
+.flex-menu {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  background: #fff;
+  margin-top: 12px;
+}
+
+.wrapper-flex {
+  justify-content: space-between;
+  display: flex;
+  padding-top: 12px;
+  text-align: center;
+}
+
+.notif {
+  justify-content: space-between;
+  display: flex;
+}
+
+.keterangan {
+  font-size: 14px;
+}
+
+.comment {
+  font-size: 16px;
+  justify-content: space-between;
+}
+
+.username {
+  font-weight: bold;
+  font-size: 4pxas;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* profil */
+
+.button-icon {
+  border-radius: 6px;
+  padding: 5px;
+  background: transparent;
+  transition: 0, 25;
+  cursor: pointer;
+  border: none;
+}
+
+.button-icon:hover {
+  background: #eaeaea;
+}
+
+.icon {
+  display: inline-flex;
+  width: 24px;
+}
+
+.nav2 {
+  display: flex;
+  justify-content: space-between;
+  margin: 4px;
+  align-items: center;
+  padding-left: 90px;
+}
+
+.wrapper-flex1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+img.profile {
+  width: 110px;
+  height: 110px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 100%;
+}
+
+.flex-profile {
+  font-size: 6px;
+  margin: 6px;
+  padding: 6px;
+  justify-content: space-between;
+}
+
+.description {
+  justify-content: space-between;
+  text-align: center;
+  font-size: 19px;
+  margin-top: 36px;
+}
+
+.bio {
+  padding-left: 18px;
+  font-size: 19px;
+}
+
+img.sorotan {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  border-radius: 100%;
+  padding: 10px;
+  margin: 4px;
+}
+
+.sorotan {
+  display: flex;
+}
+
+.keterangan {
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  margin-bottom: 10px;
+}
+
+.postingan {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 2px;
+}
+
+.postingan-icon {
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.feed {
+  display: flex;
+  margin: 1px 1px 1px 1px;
+}
+
+img.feed {
+  width: 140px;
+  height: 140px;
+}
+
+flex-menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+body {
+  font-family: "Popins", sans-serif;
+}
+
+button {
+  font-family: sans-serif;
+  font-size: 15px;
+  background: transparent;
+  color: black;
+  border: rgb(173, 173, 173) 1px solid;
+  border-radius: 5px;
+  padding: 6px 24px;
+}
+
+.icon2 {
+  display: inline-flex;
+  width: 12px;
+}
+
+.button1 {
+  font-family: sans-serif;
+  font-size: 15px;
+  background: transparent;
+  color: black;
+  border: rgb(173, 173, 173) 1px solid;
+  border-radius: 5px;
+  padding: 8px 160px;
+  margin-top: 14px;
+}
+/* end profile */
+
+/*tampilan dm*/
+
+.nav1 {
+  padding-top: 1px;
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.nav-dm {
+  display: flex;
+  justify-content: space-between;
+}
+
+.postingan1 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.postingan-icon1 {
+  width: 250px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.tampilan-dm {
+  display: flex;
+  justify-content: space-between;
+}
+
+.isi-dm {
+  padding-top: 12px;
+}
+
+.button2 {
+  font-family: sans-serif;
+  font-size: 15px;
+  background: transparent;
+  color: black;
+  border: rgb(0, 0, 0) 1px solid;
+  border-radius: 5px;
+  padding: 4px 160px;
+  margin-top: 4px;
+  display: inline-flex;
+}
+
+.tab {
+  display: flex;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 10px 0px;
+  list-style-type: none;
+}
+
+.tab > .item {
+  text-align: center;
+  padding: 10px 24px;
+  white-space: nowrap;
+  border-bottom: solid 2px #eaeaea;
+}
+
+.item.active {
+  border-bottom: solid 2px #000;
+}
