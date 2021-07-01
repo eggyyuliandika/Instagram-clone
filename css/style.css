@@ -20,8 +20,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-left: 203px;
-  height: 10px;
+  width: 414px;
+  height: 48px;
 }
 
 .hero {
