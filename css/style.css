@@ -17,12 +17,11 @@
 }
 
 .nav {
-  background-color: white;
-  display: inline-flex;
+  display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 20px;
-  width: 334px;
+  padding-left: 203px;
+  height: 10px;
 }
 
 .hero {
@@ -163,8 +162,8 @@ a {
 }
 
 img.profile {
-  width: 110px;
-  height: 110px;
+  width: 106px;
+  height: 106px;
   display: flex;
   justify-content: space-between;
   border-radius: 100%;
