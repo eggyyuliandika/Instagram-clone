@@ -85,6 +85,7 @@ img.profile1 {
 }
 
 .flex-menu {
+  justify-content: space-between;
   position: fixed;
   display: flex;
   bottom: 0;
@@ -227,8 +228,8 @@ img.sorotan {
 }
 
 img.feed {
-  width: 100px;
-  height: 100px;
+  width: 144px;
+  height: 144px;
 }
 
 flex-menu {
