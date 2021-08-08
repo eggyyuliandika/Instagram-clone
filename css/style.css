@@ -20,8 +20,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 414px;
-  height: 48px;
 }
 
 .hero {
@@ -224,12 +222,12 @@ img.sorotan {
 
 .feed {
   display: flex;
-  margin: 1px 1px 1px 1px;
+  justify-content: space-between;
 }
 
 img.feed {
-  width: 134px;
-  height: 134px;
+  width: 130px;
+  height: 130px;
 }
 
 flex-menu {
@@ -239,6 +237,8 @@ flex-menu {
 
 body {
   font-family: "Popins", sans-serif;
+  margin: 0px;
+  padding: 0px;
 }
 
 button {
@@ -312,17 +312,20 @@ button {
   margin-top: 4px;
   display: inline-flex;
 }
-
+ul {
+  margin: 10px 10px 10px 10px;
+}
 .tab {
   display: flex;
+  justify-content: space-between;
   grid-template-columns: 1fr 1fr 1fr;
-  padding: 10px 0px;
+  padding: 10px 10px 8px 10px;
   list-style-type: none;
 }
 
 .tab > .item {
   text-align: center;
-  padding: 10px 24px;
+  padding: 0px 24px;
   white-space: nowrap;
   border-bottom: solid 2px #eaeaea;
 }

@@ -8,59 +8,35 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <div style="background-color: rgb(235, 221, 221); position: fixed">
-      <div style="display: flex; justify-content: space-between; height: 10px">
-        <div class="nav">
-          <div style="padding-left: 26px; padding-top: 4px">
-            <a href="index.html">
-              <img
-                class="icon"
-                src="./assets/icon/arrow-back-outline.svg"
-                alt="back"
-                style="padding-top: 10px; padding-left: 10px"
-              />
-            </a>
-          </div>
 
-          <div
-            style="
-              text-align: left;
-              font-weight: bold;
-              font-size: 26px;
-              padding-left: 10px;
-              padding-top: 4px;
-              padding-right: 46%;
-            "
-          >
-            ylndka_
+    <div>
+      <div style="display: flex; justify-content: space-between;">
+          <div class="nav-dm">
+              <div style="padding-left: 4px; padding-top: 14px;">
+                  <button class="button-icon">
+                      <a href="index.html">
+                          <img class="icon" src="./assets/icon/arrow-back-outline.svg">
+                      </a>
+                  </button>
+              </div>
+              <div class="nav1">
+                      <h1 style="text-align:center; font-weight: bold; font-size: 24px; padding-left: 16px; margin-bottom: 10px;">
+                          pome.husky
+                      </h1>
+              </div>
           </div>
-        </div>
-        <div>
-          <button
-            class="button-icon"
-            style="padding-top: 16px; padding-right: 2px"
-          >
-            <img
-              class="icon"
-              src="./assets/icon/videocam-outline.svg"
-              alt="camera"
-            />
-          </button>
-          <button class="button-icon">
-            <a href="dm.html">
-              <img
-                class="icon"
-                src="./assets/icon/options-outline.svg"
-                alt="options"
-                style="padding-right: 8px"
-              />
-            </a>
-          </button>
-        </div>
-      </div>
-    </div>
-
-    <div style="padding-left: 26px; padding-right: 26px; padding-top: 400px">
+          <div>
+              <div style="padding-top: 14px; padding-left: 40px;">
+                  <button class="button-icon">
+                      <img class="icon" src="./assets/icon/notifications-outline.svg" alt="videocam" style="padding-left: 10px;"/>
+                  </button>
+                  <button class="button-icon">
+                      <img class="icon" src="./assets/icon/ellipsis-vertical-outline.svg" alt="menu" />
+                  </button>
+              </div>
+          </div>
+      </div>    
+    <div style="padding-left: 26px; padding-right: 26px; padding-top: 10px">
       <div
         style="
           display: flex;
@@ -93,347 +69,233 @@
 
     <ul class="tab">
       <li class="item active">Utama</li>
-      <li class="item" style="padding-left: 70px">Umum</li>
-      <li class="item" style="color: rgb(92, 92, 255); padding-left: 50px">
+      <li class="item">Umum</li>
+      <li class="item" style="color: rgb(92, 92, 255)">
         Permintaan <span>(1)</span>
       </li>
     </ul>
 
-    <div style="overflow: auto">
+    <div style="display: flex; justify-content: space-between">
       <div
         style="
           display: flex;
           justify-content: space-between;
-          padding-left: 16px;
-          padding-top: 2px;
+          padding-left: 10px;
+          padding-bottom: 1px;
         "
       >
-        <div class="tampilan-dm">
-          <img class="hero" src="./assets/anjing1.jpg" />
-          <div class="isi-dm">
-            <div style="padding-left: 10px">Puppy</div>
-            <div
-              style="
-                padding: 2px;
-                color: silver;
-                padding-left: 9px;
-                font-size: 14px;
-              "
-            >
-              Aktif 11 jam yang lalu
-            </div>
+        <img class="hero" src="./assets/anjing5.jpg" />
+        <a style="padding-left: 8px; padding-top: 8px">
+          <div class="wrapper-flex1" style="padding-top: 7px">Siberian Husky</div>
+          <div class="wrapper-flex1" style="color: silver">
+            Aktif 11 jam yang lalu
           </div>
-          <div
-            style="
-              justify-content: space-between;
-              padding-left: 134px;
-              margin-bottom: 20px;
-            "
-          >
-            <button class="button-icon">
-              <img
-                class="icon"
-                src="./assets/icon/camera-outline.svg"
-                alt="camera"
-                style="width: 30px"
-              />
-            </button>
-          </div>
-        </div>
+        </a>
       </div>
+      <div class="button-icon">
+        <img
+          class="icon"
+          src="./assets/icon/camera-outline.svg"
+          alt="setting"
+          style="padding-top: 10px; padding-right: 10px;"
+        />
+      </div>
+    </div>
 
-      <div
-        style="
-          display: flex;
-          justify-content: space-between;
-          padding-left: 16px;
-          padding-top: 18px;
-        "
-      >
-        <div class="tampilan-dm">
-          <img class="hero" src="./assets/anjing2.jpg" />
-          <div class="isi-dm">
-            <div style="padding-left: 10px">Golden</div>
-            <div
-              style="
-                padding: 2px;
-                color: silver;
-                padding-left: 9px;
-                font-size: 14px;
-              "
-            >
-              Aktif 11 jam yang lalu
-            </div>
-          </div>
-          <div
-            style="
-              justify-content: space-between;
-              padding-left: 134px;
-              margin-bottom: 20px;
-            "
-          >
-            <button class="button-icon">
-              <img
-                class="icon"
-                src="./assets/icon/camera-outline.svg"
-                alt="camera"
-                style="width: 30px"
-              />
-            </button>
-          </div>
-        </div>
-      </div>
-
-      <div
-        style="
-          display: flex;
-          justify-content: space-between;
-          padding-left: 16px;
-          padding-top: 18px;
-        "
-      >
-        <div class="tampilan-dm">
-          <img class="hero" src="./assets/anjing3.jpg" />
-          <div class="isi-dm">
-            <div style="padding-left: 10px">Siberian Husky</div>
-            <div
-              style="
-                padding: 2px;
-                color: silver;
-                padding-left: 9px;
-                font-size: 14px;
-              "
-            >
-              Aktif 11 jam yang lalu
-            </div>
-          </div>
-          <div
-            style="
-              justify-content: space-between;
-              padding-left: 134px;
-              margin-bottom: 20px;
-            "
-          >
-            <button class="button-icon">
-              <img
-                class="icon"
-                src="./assets/icon/camera-outline.svg"
-                alt="camera"
-                style="width: 30px"
-              />
-            </button>
-          </div>
-        </div>
-      </div>
-      <div
-        style="
-          display: flex;
-          justify-content: space-between;
-          padding-left: 16px;
-          padding-top: 18px;
-        "
-      >
-        <div class="tampilan-dm">
-          <img class="hero" src="./assets/anjing4.jpg" />
-          <div class="isi-dm">
-            <div style="padding-left: 10px">Shiba Inu</div>
-            <div
-              style="
-                padding: 2px;
-                color: silver;
-                padding-left: 9px;
-                font-size: 14px;
-              "
-            >
-              Aktif 11 jam yang lalu
-            </div>
-          </div>
-          <div
-            style="
-              justify-content: space-between;
-              padding-left: 134px;
-              margin-bottom: 20px;
-            "
-          >
-            <button class="button-icon">
-              <img
-                class="icon"
-                src="./assets/icon/camera-outline.svg"
-                alt="camera"
-                style="width: 30px"
-              />
-            </button>
-          </div>
-        </div>
-      </div>
-
-      <div
-        style="
-          display: flex;
-          justify-content: space-between;
-          padding-left: 16px;
-          padding-top: 18px;
-        "
-      >
-        <div class="tampilan-dm">
-          <img class="hero" src="./assets/anjing5.jpg" />
-          <div class="isi-dm">
-            <div style="padding-left: 10px">Buldog</div>
-            <div
-              style="
-                padding: 2px;
-                color: silver;
-                padding-left: 9px;
-                font-size: 14px;
-              "
-            >
-              Aktif 11 jam yang lalu
-            </div>
-          </div>
-          <div
-            style="
-              justify-content: space-between;
-              padding-left: 134px;
-              margin-bottom: 20px;
-            "
-          >
-            <button class="button-icon">
-              <img
-                class="icon"
-                src="./assets/icon/camera-outline.svg"
-                alt="camera"
-                style="width: 30px"
-              />
-            </button>
-          </div>
-        </div>
-      </div>
-
-      <div
-        style="
-          display: flex;
-          justify-content: space-between;
-          padding-left: 16px;
-          padding-top: 18px;
-        "
-      >
-        <div class="tampilan-dm">
-          <img class="hero" src="./assets/anjing6.jpg" />
-          <div class="isi-dm">
-            <div style="padding-left: 10px">Cihuahua</div>
-            <div
-              style="
-                padding: 2px;
-                color: silver;
-                padding-left: 9px;
-                font-size: 14px;
-              "
-            >
-              Aktif 11 jam yang lalu
-            </div>
-          </div>
-          <div
-            style="
-              justify-content: space-between;
-              padding-left: 134px;
-              margin-bottom: 20px;
-            "
-          >
-            <button class="button-icon">
-              <img
-                class="icon"
-                src="./assets/icon/camera-outline.svg"
-                alt="camera"
-                style="width: 30px"
-              />
-            </button>
-          </div>
-        </div>
-      </div>
-
-      <div
-        style="
-          display: flex;
-          justify-content: space-between;
-          padding-left: 16px;
-          padding-top: 18px;
-        "
-      >
-        <div class="tampilan-dm">
-          <img class="hero" src="./assets/anjing7.jpg" />
-          <div class="isi-dm">
-            <div style="padding-left: 10px">Rotweiller</div>
-            <div
-              style="
-                padding: 2px;
-                color: silver;
-                padding-left: 9px;
-                font-size: 14px;
-              "
-            >
-              Aktif 11 jam yang lalu
-            </div>
-          </div>
-          <div
-            style="
-              justify-content: space-between;
-              padding-left: 134px;
-              margin-bottom: 20px;
-            "
-          >
-            <button class="button-icon">
-              <img
-                class="icon"
-                src="./assets/icon/camera-outline.svg"
-                alt="camera"
-                style="width: 30px"
-              />
-            </button>
-          </div>
-        </div>
-      </div>
-
-      <div
-        style="
-          display: flex;
-          justify-content: space-between;
-          padding-left: 16px;
-          padding-top: 18px;
-        "
-      >
-        <div class="tampilan-dm">
+    <div style="display: flex; justify-content: space-between; padding-top: 10px;">
+        <div
+          style="
+            display: flex;
+            justify-content: space-between;
+            padding-left: 10px;
+            padding-bottom: 1px;
+          "
+        >
           <img class="hero" src="./assets/anjing8.jpg" />
-          <div class="isi-dm">
-            <div style="padding-left: 10px">Pomerania</div>
-            <div
-              style="
-                padding: 2px;
-                color: silver;
-                padding-left: 9px;
-                font-size: 14px;
-              "
-            >
-              Aktif 11 jam yang lalu
+          <a style="padding-left: 8px; padding-top: 8px">
+            <div class="wrapper-flex1" style="padding-top: 7px">Poodle</div>
+            <div class="wrapper-flex1" style="color: silver">
+              Aktif 1 jam yang lalu
             </div>
-          </div>
-          <div
-            style="
-              justify-content: space-between;
-              padding-left: 134px;
-              margin-bottom: 20px;
-            "
-          >
-            <button class="button-icon">
-              <img
-                class="icon"
-                src="./assets/icon/camera-outline.svg"
-                alt="camera"
-                style="width: 30px"
-              />
-            </button>
-          </div>
+          </a>
+        </div>
+        <div class="button-icon">
+          <img
+            class="icon"
+            src="./assets/icon/camera-outline.svg"
+            alt="setting"
+            style="padding-top: 10px; padding-right: 10px;"
+          />
         </div>
       </div>
     </div>
+
+    <div style="display: flex; justify-content: space-between; padding-top: 10px;">
+      <div
+        style="
+          display: flex;
+          justify-content: space-between;
+          padding-left: 10px;
+          padding-bottom: 1px;
+        "
+      >
+        <img class="hero" src="./assets/anjing3.jpg" />
+        <a style="padding-left: 8px; padding-top: 8px">
+          <div class="wrapper-flex1" style="padding-top: 7px">Labrador Retriever</div>
+          <div class="wrapper-flex1" style="color: silver">
+            Aktif 3 jam yang lalu
+          </div>
+        </a>
+      </div>
+      <div class="button-icon">
+        <img
+          class="icon"
+          src="./assets/icon/camera-outline.svg"
+          alt="setting"
+          style="padding-top: 10px; padding-right: 10px;"
+        />
+      </div>
+    </div>
+  </div>
+
+  <div style="display: flex; justify-content: space-between; padding-top: 10px;">
+    <div
+      style="
+        display: flex;
+        justify-content: space-between;
+        padding-left: 10px;
+        padding-bottom: 1px;
+      "
+    >
+      <img class="hero" src="./assets/anjing7.jpg" />
+      <a style="padding-left: 8px; padding-top: 8px">
+        <div class="wrapper-flex1" style="padding-top: 7px">Golden Retriever</div>
+        <div class="wrapper-flex1" style="color: silver">
+          Aktif 6 jam yang lalu
+        </div>
+      </a>
+    </div>
+    <div class="button-icon">
+      <img
+        class="icon"
+        src="./assets/icon/camera-outline.svg"
+        alt="setting"
+        style="padding-top: 10px; padding-right: 10px;"
+      />
+    </div>
+  </div>
+</div>
+
+<div style="display: flex; justify-content: space-between; padding-top: 10px;">
+  <div
+    style="
+      display: flex;
+      justify-content: space-between;
+      padding-left: 10px;
+      padding-bottom: 1px;
+    "
+  >
+    <img class="hero" src="./assets/anjing4.jpg" />
+    <a style="padding-left: 8px; padding-top: 8px">
+      <div class="wrapper-flex1" style="padding-top: 7px">Buldog</div>
+      <div class="wrapper-flex1" style="color: silver">
+        Aktif 8 jam yang lalu
+      </div>
+    </a>
+  </div>
+  <div class="button-icon">
+    <img
+      class="icon"
+      src="./assets/icon/camera-outline.svg"
+      alt="setting"
+      style="padding-top: 10px; padding-right: 10px;"
+    />
+  </div>
+</div>
+</div>
+
+<div style="display: flex; justify-content: space-between; padding-top: 10px;">
+  <div
+    style="
+      display: flex;
+      justify-content: space-between;
+      padding-left: 10px;
+      padding-bottom: 1px;
+    "
+  >
+    <img class="hero" src="./assets/anjing9.jpg" />
+    <a style="padding-left: 8px; padding-top: 8px">
+      <div class="wrapper-flex1" style="padding-top: 7px">Chihuahua</div>
+      <div class="wrapper-flex1" style="color: silver">
+        Aktif 8 jam yang lalu
+      </div>
+    </a>
+  </div>
+  <div class="button-icon">
+    <img
+      class="icon"
+      src="./assets/icon/camera-outline.svg"
+      alt="setting"
+      style="padding-top: 10px; padding-right: 10px;"
+    />
+  </div>
+</div>
+</div>
+
+<div style="display: flex; justify-content: space-between; padding-top: 10px;">
+  <div
+    style="
+      display: flex;
+      justify-content: space-between;
+      padding-left: 10px;
+      padding-bottom: 1px;
+    "
+  >
+    <img class="hero" src="./assets/anjing6.jpg" />
+    <a style="padding-left: 8px; padding-top: 8px">
+      <div class="wrapper-flex1" style="padding-top: 7px">Buldog Prancis</div>
+      <div class="wrapper-flex1" style="color: silver">
+        Aktif 8 jam yang lalu
+      </div>
+    </a>
+  </div>
+  <div class="button-icon">
+    <img
+      class="icon"
+      src="./assets/icon/camera-outline.svg"
+      alt="setting"
+      style="padding-top: 10px; padding-right: 10px;"
+    />
+  </div>
+</div>
+</div>
+
+<div style="display: flex; justify-content: space-between; padding-top: 10px;">
+  <div
+    style="
+      display: flex;
+      justify-content: space-between;
+      padding-left: 10px;
+      padding-bottom: 1px;
+    "
+  >
+    <img class="hero" src="./assets/anjing2.jpg" />
+    <a style="padding-left: 8px; padding-top: 8px">
+      <div class="wrapper-flex1" style="padding-top: 7px">Dachshund</div>
+      <div class="wrapper-flex1" style="color: silver">
+        Aktif 11 jam yang lalu
+      </div>
+    </a>
+  </div>
+  <div class="button-icon">
+    <img
+      class="icon"
+      src="./assets/icon/camera-outline.svg"
+      alt="setting"
+      style="padding-top: 10px; padding-right: 10px;"
+    />
+  </div>
+</div>
+</div>
   </body>
 </html>
